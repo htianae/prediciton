@@ -1,0 +1,34 @@
+{
+  "notebook_artifact_version": "furnace-complete-notebook-1.0",
+  "training_batches": 292,
+  "dev_batches": 248,
+  "locked_batches": 44,
+  "selected_before_lock": "OOFEnsemble",
+  "locked_rmse_winner": "GPR__unit",
+  "recommendation_model": "LightGBM__direct",
+  "recommendation_optimizer": "genetic_algorithm",
+  "recommendation_seed": 42,
+  "production_recommendation_86000": {
+    "source": "model_optimization",
+    "recommendation": {
+      "10#熔炼炉固体料重量比例": 38.095199605793454,
+      "熔炼炉B当前批次等待时长_PLC": 0.6497602383486134,
+      "熔炼炉B当前批次炉门打开次数_PLC": 14.0,
+      "熔炼炉B当前批次炉门打开时长_PLC": 69.41169676666607
+    },
+    "conservative_predicted_gas": 3293.6656501615316,
+    "estimated_saving_vs_actual_baseline": 407.61434983846857,
+    "actual_baseline_gas": 3701.28,
+    "historical_low_gas_median": 2876.395,
+    "fold_consensus_rate": 1.0,
+    "prediction_std": 72.65794404607968,
+    "normalized_knn_distance": 0.24965941234761704,
+    "safety_pass": true,
+    "safety_grade": "A",
+    "safety_reasons": [],
+    "candidate": "LightGBM__direct",
+    "optimizer": "genetic_algorithm"
+  },
+  "artifact_path": "/Users/tian/Desktop/prediction_project/advanced_furnace_ml/complete_notebook_output/artifacts/furnace_complete_bundle.joblib",
+  "offline_savings_disclaimer": "离线预计节省不等于工厂实际节省，必须经过现场受控试验。"
+}

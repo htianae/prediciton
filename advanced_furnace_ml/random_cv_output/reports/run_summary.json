@@ -1,0 +1,10 @@
+{
+  "artifact_version": "random-cv-furnace-1.0",
+  "selected_model_name": "Ridge__direct",
+  "test_rmse_winner": "Huber__direct",
+  "training_batches": 292,
+  "train_batches_for_selection": 233,
+  "test_batches_for_audit": 59,
+  "candidate_count": 19,
+  "artifact_path": "/Users/tian/Desktop/prediction_project/advanced_furnace_ml/random_cv_output/artifacts/random_cv_champion.joblib"
+}

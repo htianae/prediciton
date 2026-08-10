@@ -1,0 +1,6 @@
+candidate,optimizer,source,safety_pass,safety_grade,actual_baseline_gas,conservative_predicted_gas,estimated_saving_vs_actual_baseline,fold_consensus_rate,prediction_std,safety_reasons,10#熔炼炉固体料重量比例,熔炼炉B当前批次等待时长_PLC,熔炼炉B当前批次炉门打开次数_PLC,熔炼炉B当前批次炉门打开时长_PLC
+LightGBM__direct,genetic_algorithm,model_optimization,True,A,3701.28,3293.6656501615316,407.61434983846857,1.0,72.65794404607968,,38.095199605793454,0.6497602383486134,14.0,69.41169676666607
+GPR__direct,bayesian_optimization,model_optimization,True,A,3701.28,3443.708067689588,257.5719323104122,1.0,10.063650646808485,,36.22715598400121,0.5888489475867198,14.0,68.07154289047226
+Ridge+LGBMResidual__direct,bayesian_optimization,model_optimization,True,A,3701.28,3477.123744311138,224.15625568886207,1.0,11.262762851425432,,36.47734040113986,0.5946116753564229,14.0,70.21569882453694
+Huber+LGBMResidual__direct,bayesian_optimization,model_optimization,True,A,3701.28,3431.132732878456,270.14726712154425,1.0,70.61263972953647,,36.46839259123113,0.5890293225025476,14.0,63.544746550861134
+OOFEnsemble,genetic_algorithm,model_optimization,True,A,3701.28,3438.1874631137443,263.09253688625586,1.0,10.243306042577023,,36.384621858767645,0.6061033464109115,14.0,63.47331884945727

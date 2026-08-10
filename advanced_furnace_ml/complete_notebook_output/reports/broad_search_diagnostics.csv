@@ -1,0 +1,2 @@
+candidate,search_range,conservative_predicted_gas,prediction_std,normalized_knn_distance,boundary_hit,boundary_pass,uncertainty_pass_old_rule,10#熔炼炉固体料重量比例,熔炼炉B当前批次等待时长_PLC,熔炼炉B当前批次炉门打开次数_PLC,熔炼炉B当前批次炉门打开时长_PLC
+LightGBM__direct,historical 5%-95%,2882.289597292462,35.24038041943469,0.2917398513789218,False,True,True,28.29284475611321,0.63854912593108,13.0,90.53951941253234

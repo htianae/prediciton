@@ -1,0 +1,10 @@
+{
+  "excel_path": "../4_month_data_2026_02_01_2026_06_25.xlsx",
+  "locked_test_batches": 44,
+  "recommendation_total_weight": 86000.0,
+  "trust_ratio": 0.10,
+  "optimizer_budget": 600,
+  "optimizer_seeds": [0, 1, 2],
+  "conformal_coverage": 0.90,
+  "bootstrap_repetitions": 1000
+}

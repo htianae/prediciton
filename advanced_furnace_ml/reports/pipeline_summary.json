@@ -1,0 +1,11 @@
+{
+  "selected_before_lock": "OOFEnsemble",
+  "locked_batches": 44,
+  "recommendation_model": "LightGBM__direct",
+  "recommendation_optimizer": "genetic_algorithm",
+  "recommendation_seed": 42,
+  "recommendation_safety_pass": true,
+  "recommendation_source": "model_optimization",
+  "artifact_path": "/Users/tian/Desktop/prediction_project/advanced_furnace_ml/artifacts/advanced_furnace_bundle.joblib",
+  "offline_savings_disclaimer": "离线预计节省不等于工厂实际节省，必须经过现场受控试验。"
+}

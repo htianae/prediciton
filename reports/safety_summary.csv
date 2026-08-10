@@ -1,0 +1,4 @@
+model,feasible_scenario_rate,boundary_hit_rate,uncertainty_median,passes_safety
+Huber,1.0,1.0,33.49168639525263,False
+LightGBM,1.0,0.105,84.57840170307813,True
+Linear,1.0,0.95,31.830206748350424,False

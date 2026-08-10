@@ -1,0 +1,5 @@
+member,weight
+Ridge__direct,0.25
+ElasticNet__direct,0.25
+Ridge+LGBMResidual__direct,0.25
+Ridge__unit,0.25

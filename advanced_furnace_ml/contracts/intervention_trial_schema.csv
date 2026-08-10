@@ -1,0 +1,2 @@
+batch_id,trial_id,recommended_at,parameter_name,recommended_value,actual_value,adjustment_reason,operator_id,shift_id,raw_material_batch,quality_pass,final_temperature,production_weight,safety_incident,final_gas,trial_note
+ER_EXAMPLE,TRIAL_EXAMPLE,2026-07-22T09:00:00+08:00,solid_ratio,38.0,39.0,operator_safety_adjustment,OP_EXAMPLE,SHIFT_A,MATERIAL_EXAMPLE,true,745.0,86000.0,false,2900.0,example_only_delete_before_use

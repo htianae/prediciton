@@ -1,0 +1,2 @@
+batch_id,event_time,measured_at,entered_at,elapsed_hours,cumulative_gas,current_temperature,gas_flow,oxygen_flow,cumulative_waiting_time,cumulative_door_count,cumulative_door_duration,is_missing_update,correction_version,data_quality_note
+ER_EXAMPLE,2026-07-22T09:17:00+08:00,2026-07-22T09:15:00+08:00,2026-07-22T09:17:00+08:00,2.25,1050.0,710.0,520.0,120.0,0.20,3,18.0,false,1,example_only_delete_before_use

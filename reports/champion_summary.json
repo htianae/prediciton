@@ -1,0 +1,8 @@
+{
+  "champion_model": "Linear",
+  "optimizer_name": "genetic_algorithm",
+  "fallback_to_history": true,
+  "training_batches": 292,
+  "high_gas_outliers_retained": 5,
+  "artifact_path": "/Users/tian/Desktop/prediction_project/artifacts/gas_champion.joblib"
+}
